@@ -32,7 +32,7 @@ Anisble is pretty straight forward as far as configuration management tools.
 Directories/Files that matter:
 
 * inventories/
-  In here is an file/files that lets Ansible know what hosts we are maniging and what group name we have them listed under.
+  In here is an file/files that lets Ansible know what hosts we are managing and what group name we have them listed under.
   ```
   [master]
   foo.bar.au
