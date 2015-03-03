@@ -26,6 +26,7 @@ pip install -r requirements.txt
 Anisble is pretty straight forward as far as configuration management tools.
 
 * Edit some yaml files or jinja2 templates.
+* test in vagrant
 * push out to host(s)
 
 Directories/Files that matter:
@@ -58,3 +59,8 @@ Vagrant reads the virtualbox settings from settings.yml
 ansible-playbook -i inventories/hosts playbooks/moo.yml
 
 ```
+
+## Contributing
+
+See [CONTRIBUTING](CONTRIBUTING.md) for contributing to this repo.
+
