@@ -1,0 +1,13 @@
+---
+## Vagrant/Virtualbox Settings
+box_name: "ansible.dev"
+box_ip: "172.17.17.240"
+box_ram: 512
+box_cpus: 2
+box_base: "ubuntu/trusty64"
+
+# Set the level of verbosity that Ansible will use
+# This can be one of "", "v", "vv", "vvv", or "vvvv"
+ansible_verbosity: "vv"
+ansible_playbook: "playbooks/vagrant.yml"
+ansible_sudo: true

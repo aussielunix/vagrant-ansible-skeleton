@@ -1,0 +1,9 @@
+---
+- name: vagrant playbook for testing ansible+vagrant
+  hosts: all
+  sudo: True
+  gather_facts: True
+
+  tasks:
+    shell: hostname -f
+
