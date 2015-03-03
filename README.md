@@ -50,7 +50,7 @@ http://docs.ansible.com/ is an excellent collection of documentation/reference m
 ## Testing changes locally
 
 There is an included vagrant environment for testing these changes locally.  
-Vagrant reads the virtualbox settings from settings.yml
+Vagrant reads the virtualbox settings from [settings.yml](https://github.com/aussielunix/vagrant-ansible-skeleton/blob/master/settings.yml)
 
 ## Rolling out to servers
 
